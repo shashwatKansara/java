@@ -7,15 +7,12 @@ public class person {
     public void setName(String nName){
         this.name = nName;
     }
-
     public void setAge(int nAge) {
         this.age = nAge;
     }
-
     public void setLoc(String newLocation) {
         this.location = newLocation;
     }
-
     public String getName() {
         return name;
     }
@@ -25,6 +22,4 @@ public class person {
     public int getAge() {
         return age;
     }
-
-
 }
